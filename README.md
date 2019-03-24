@@ -33,3 +33,8 @@ Default auth  root/root
 - add and manage users/roles
 - resolve performance for big projects
 - realtime update
+
+
+**how is it look**
+
+<img src="./public/screenlive.png" width="800px" />
