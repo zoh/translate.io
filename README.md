@@ -3,10 +3,9 @@
 
 ### Store and share translates  for your projects
 
-
-![GUN.JS](./public/gun_logo-01.svg | width=200)
+<img src="./public/gun_logo-01.svg" width="200px" />
 +
-![VUE.JS](./public/1_zyNSb0UXhP8TfxYbj-GNWg.png | width=200)
+<img src="./public/1_zyNSb0UXhP8TfxYbj-GNWg.png" width="200px" />
 
 
 ## Use it!
