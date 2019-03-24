@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+set -a;
+source ./.env;
+
+
+NODE_ENV=production npm start

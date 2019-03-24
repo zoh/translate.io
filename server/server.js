@@ -1,15 +1,15 @@
 // variables from env.
 const token = process.env.TOKEN_API || 'dnyas87dtab7s6tdbrvas6rdisa6rda';
-
 const port = process.env.OPENSHIFT_NODEJS_PORT
   || process.env.VCAP_APP_PORT
   || process.env.PORT
   || 8765;
+
 const mongodb = {
   host: process.env.MONGODB_HOST || 'localhost',
   port: process.env.MONGODB_PORT || '27017',
-  database: process.env.MONGODB_PORT || 'gun',
-  collection: process.env.MONGODB_PORT || 'gun-mongo111',
+  database: process.env.MONGODB_DB || 'gun',
+  collection: process.env.MONGODB_COLLECTION || 'gun-mongo111',
 };
 
 console.log("If module not found, install express globally `npm i express -g`!");
